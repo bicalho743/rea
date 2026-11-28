@@ -12,34 +12,40 @@
 - **Palavras-marca:** "regra", "método", "o que bagunça não é o espaço".
 - **Limites:** não promete resultados milagrosos; não fala mal de clientes.
 
-## Visual (bíblia)
+## Visual (bíblia) — versão 2, desde 28/11/2026
 
-- Mulher brasileira de ~40 anos, pele morena clara, olhos castanhos, cabelo
-  preto ondulado abaixo dos ombros com reflexos castanhos.
-- Figurino fixo: blazer taupe, blusa canelada creme, brinco de bolinha dourada.
-- Cenário padrão (UGC): closet organizado, roupas por cor, cestos e caixas com
-  etiqueta, luz natural.
-- Rosto escolhido: **Rosto 2** (usar sempre como `reference_image_urls`)
-- Cópias locais (prévia reduzida) em `imagens/`; o original em qualidade total
-  fica no CDN do Kairogen (links abaixo).
+- Mulher brasileira comum de ~45 anos, rosto natural (sem cara de modelo), pele
+  clara com textura real, olhos claros, sorriso aberto e espontâneo.
+- Cabelo **loiro escuro**, ondulado e volumoso, com mechas, na altura dos ombros.
+- Figurino fixo: blazer taupe, blusa canelada creme de gola redonda, brinco de
+  bolinha dourada.
+- Cenário padrão (UGC): closet organizado, roupas por cor, cestos de palha com
+  etiqueta, luz natural; jeito de vídeo gravado no celular.
+- Rosto escolhido: **rascunho C**, recriado em alta qualidade. Usar sempre a
+  imagem base como `reference_image_urls`.
+- Cópias locais (prévia reduzida) em `imagens/`; originais no CDN do Kairogen.
 
-| Ângulo                               | URL                                                                                                      |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| Meio-corpo frontal (base dos vídeos) | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/12659f1b-eaef-4017-9efb-9bd55d5d5c99.png |
-| Close do rosto                       | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/e54bb2c3-9261-45a9-ae04-a829bff06775.png |
-| Perfil                               | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/2e514753-d1ce-45ea-a6ac-5b5792ae47b6.png |
-| Corpo inteiro                        | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/20449071-747e-4a12-ae8b-e47d0a4cb206.png |
-| Em ação (dobrando/guardando)         | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/2975b6df-7200-4ab8-8b75-b153cd76e013.png |
+| Imagem                                     | URL                                                                                                      |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Meio-corpo frontal (base dos vídeos)       | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/46551e8e-7cb3-4951-b431-4e222e4cc635.png |
+| Rascunho C (Z-Image, origem do rosto)      | https://cdn.kairogen.ai/gallery/images/6a8c9aab38abea40bd3697e3/cc2aff36-0ca1-465d-bfca-47ed124d104d.png |
+| Close, perfil, corpo inteiro, em ação      | _a fazer (≈ 14–16 créditos, cotar antes)_                                                                |
+
+A versão 1 (morena, cabelo preto) foi substituída; as imagens dela estão em
+`versao-1-morena/` só como histórico.
 
 ## Voz
 
-- **Juliana Katrein** — Kairogen/ElevenLabs `voice_id: ZExzO7iCJWL0gUN2WYbU`
-- Modelo: `eleven-v4-turbo`, `language_code: pt`
-- Teste: https://cdn.kairogen.ai/audio-generations/6a8c9aab38abea40bd3697e3/6b0600d5a1d07e0459374082/speech.mp3
+- **Sirlene Correa** — Kairogen/ElevenLabs `voice_id: eabgQyq9no9rW5ZiGiaZ`
+  (natural, clara, jeito de conversa do cotidiano, tom mais grave).
+- Modelo: **`eleven-v4`** (mais expressivo; ~2 créditos por fala curta),
+  `language_code: pt`. O `eleven-v4-turbo` custa metade, mas soa mais "lido".
+- Teste (v4): https://cdn.kairogen.ai/audio-generations/6a8c9aab38abea40bd3697e3/6b0acffca2816a589d4bcb10/speech.mp3
+- Voz anterior (versão 1): Juliana Katrein `ZExzO7iCJWL0gUN2WYbU`.
 
-## Gastos até agora (Kairogen)
+## Gastos (Kairogen)
 
-- 3 rostos (Nano Banana 2): 11 créditos
-- Fala de teste: 1 crédito
-- 4 ângulos da bíblia: 16 créditos
-- **Total: 28 créditos (≈ R$ 4,90)**
+- Versão 1 (rostos, voz de teste, 4 ângulos): 28 créditos
+- Versão 2 (28/11): 4 rascunhos Z-Image 4 + rosto C em Nano Banana 2 3 +
+  4 testes de voz 4 + voz Sirlene em v4 2 = **13 créditos**
+- **Total: 41 créditos (≈ R$ 7,20)**

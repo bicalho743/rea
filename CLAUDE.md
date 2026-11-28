@@ -24,16 +24,19 @@ conta nem nada pessoal.
 - `setor-de-modelagem/analise-viral.md`: o que descobrimos sobre o Viral e os custos.
 - `setor-de-modelagem/agente-openbot.md`: instruções para colar no Bot do OpenBot.
 - `setor-de-modelagem/clara-organiza/ficha.md`: ficha, voz e bíblia de imagens.
-- `setor-de-modelagem/clara-organiza/imagens/`: os 5 ângulos e os rostos não
+- `setor-de-modelagem/clara-organiza/imagens/`: imagens da versão 2 (as da versão 1 em `versao-1-morena/`), e os rostos não
   escolhidos (prévias; originais no CDN do Kairogen, links na ficha).
 - `setor-de-modelagem/ferramentas/`: scripts usados na análise do APK.
 - Para rodar o REA: `npm ci` e `npm run build:cached` (Node 22, ver `.nvmrc`).
 
-## Onde paramos (26/11/2026)
+## Onde paramos (28/11/2026)
 
-- **Pronto:** análise do Viral; agente Setor de Modelagem escrito; Clara Organiza
-  com ficha, rosto (Rosto 2), bíblia de 5 ângulos no closet e voz
-  **Juliana Katrein** (Kairogen `ZExzO7iCJWL0gUN2WYbU`). Gasto no Kairogen: 28 créditos.
+- **Pronto:** análise do Viral; agente Setor de Modelagem escrito.
+- **Clara Organiza, versão 2 (28/11):** rosto novo, mais comum, de ~45 anos e
+  cabelo loiro escuro (rascunho C, recriado no Nano Banana 2), e voz
+  **Sirlene Correa** (Kairogen `eabgQyq9no9rW5ZiGiaZ`, modelo `eleven-v4`).
+  A versão 1 (morena, voz Juliana) está em `clara-organiza/versao-1-morena/`.
+  **Falta:** os 4 ângulos da bíblia da versão 2. Gasto total no Kairogen: 41 créditos.
 - **No Viral:** existe a influencer "Clara" (id 3092, @clara-mae), criada pelo
   chat do Viral, ainda sem rosto e sem voz. Os outros perfis: Cláudia Ordem (3072,
   bio com uma regra de educação física colada por engano) e Cris Arruma (3073, rascunho).
